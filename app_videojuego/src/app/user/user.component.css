@@ -99,8 +99,8 @@
 .btn:hover,
 .btn:active
 {
-    background: #FFA500!important;
-    border-color: #FFA500!important;
+    background: #8b11dd!important;
+    border-color: #8b11dd!important;
 }
  
 /*----------Servicios---------*/
@@ -157,7 +157,7 @@
  
 .services .col-md-3:hover
 {
-    background: #FFA500;
+    background: #a10c8d;
     cursor:pointer;
     transition: 0.7s;
 }
@@ -311,7 +311,7 @@ blockquote::before
 }
 
 #imagen{
-    
+
     width: 100%;
     height: auto;
 }
