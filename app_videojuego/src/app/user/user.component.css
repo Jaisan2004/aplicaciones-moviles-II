@@ -235,7 +235,19 @@ h1::after
 }
 
 #imagen{
-
+    position: relative;
     width: 100%;
     height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+
+    position: absolute;
+    height: 60%;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px; 
 }
