@@ -309,3 +309,9 @@ blockquote::before
     padding-top: 12px;
     padding-bottom: 16px;
 }
+
+#imagen{
+    
+    width: 100%;
+    height: auto;
+}
