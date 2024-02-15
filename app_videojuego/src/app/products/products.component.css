@@ -7,9 +7,13 @@ body{
 #juegos{
     display: block;
   width: 60%;
+  height: 300px;
   margin: auto;
     
 }
 .card{
     text-align: center;
+    height: 400px;
+    background-color: #24303c;
+    color: #fff;
 }
