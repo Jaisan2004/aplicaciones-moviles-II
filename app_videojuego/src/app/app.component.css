@@ -5,3 +5,15 @@
 	z-index: 10;
     background-color: #24303c;
 }
+
+#nav-bar ul li a:hover 
+{
+	color: #dd11c2!important;
+}
+
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size:  16px;
+}
