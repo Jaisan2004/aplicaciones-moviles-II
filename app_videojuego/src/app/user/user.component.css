@@ -1,62 +1,311 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  .form-register {
-    width: 400px;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-  }
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*---------barra de navegacion-----------*/
+#nav-bar 
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+    background-color: #24303c;
+}
+
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+/*---Color importante-----*/
+#nav-bar ul li a:hover 
+{
+	color: #3cdd3c!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler 
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size:  16px;
+}
+
+/*----------Slider---------*/
+
+#slider
+{
+	width: 100%;
+}
+
+.carousel-caption
+{
+	top: 25%;
+	transform: translateY(1%);
+	bottom: initial!important;
+}
+
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 42px;
+}
+
+/*-----nosotros---*/
+
+#about 
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+	text-align: center;
+}
+
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+
+}
+
+.about-content
+{
+	padding-top: 20px;
+	border-radius: 16px !important;
+}
+
+.btn,
+.btn:hover,
+.btn:active
+{
+	background: #FFA500!important;
+	border-color: #FFA500!important;
+}
+
+/*----------Servicios---------*/
+
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#services h1
+{
+	text-align: center;
+	color: #efefef!important;
+	padding-bottom: 10px;
+}
+
+#services h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 220px;
+	margin: 20px auto 5px;
+
+}
+
+.services
+{
+	margin-top: 40px;
+}
+
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+}
+
+#services p 
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+
+.services .col-md-3:hover
+{
+	background: #FFA500;
+	cursor:pointer;
+	transition: 0.7s;
+}
+
+/*-----proyectos------*/
+
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+
+h1::after
+{
+	content: '';
+	background: #FFA500;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 20px auto 5px;
+	padding-bottom: 0px;
+
+	}
+
+#proyects
+{
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#proyects .row
+{
+	margin-top:0px; 
+}
+
+.col-md-4
+{
+	margin: 40px auto;
+}
+
+.profile
+{
+	padding: 20px 10px 10px ;
+	background-color: #efefef; 
+}
+
+.proyec
+{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+}
+
+.profile .img
+{
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 10px solid #fff;
+}
+
+.profile h3
+{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #FFA500;
+}
+
+/*
+#proyects span
+{
+	font-size: 12;
+	color: #333;
+}
+*/
+
+blockquote
+{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+blockquote::before
+{
+	
+	font-size: 50px;
+	color: #FFA500;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+
+}
+
+.profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+/*------contactanos-------*/
+
+#contact
+{
+	background:#efefef ;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+
+.contact-form
+{
+	padding: 15px;
+}
+
+.form-control
+{
+	border-radius: 0!important;
+	border:none !important;
+}
+
+::placeholder
+{
+	color: #999!important;
+}
+
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+
+.contact-info .fa
+{
+	margin-top: 10px;
+	color: #FFA500!important;
+	font-weight: bold;
+}
+
+/*-------footer-------*/
+
+#footer
+{
+	background: #333;
+	color:#fff;
+	padding-top: 12px;
+	padding-bottom: 16px;
+}

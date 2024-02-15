@@ -1,3 +1,10 @@
+body{
+    background-image: url('https://www.infobae.com/new-resizer/Ql2bDGZ-TZGBBrAFFL_kOo1qwXk=/arc-anglerfish-arc2-prod-infobae/public/25FCOYGKIJF4ZLVWEOSZOCZ5MY.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 * {
     margin: 0;
     padding: 0;
