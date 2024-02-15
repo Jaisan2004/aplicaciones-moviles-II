@@ -174,7 +174,7 @@ h1
 h1::after
 {
     content: '';
-    background: #FFA500;
+    background: #dd11c2;
     display: block;
     height: 3px;
     width: 150px;
@@ -182,83 +182,7 @@ h1::after
     padding-bottom: 0px;
  
     }
- 
-#proyects
-{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
- 
-#proyects .row
-{
-    margin-top:0px;
-}
- 
-.col-md-4
-{
-    margin: 40px auto;
-}
- 
-.profile
-{
-    padding: 20px 10px 10px ;
-    background-color: #efefef;
-}
- 
-.proyec
-{
-    width:200px;
-    height:200px;
-    border-radius: 50%;
-}
- 
-.profile .img
-{
-    top: -60px;
-    position: absolute;
-    left: calc(50% - 60px);
-    border: 10px solid #fff;
-}
- 
-.profile h3
-{
-    font-size: 20px;
-    margin-top: 15px;
-    color: #FFA500;
-}
- 
-/*
-#proyects span
-{
-    font-size: 12;
-    color: #333;
-}
-*/
- 
-blockquote
-{
-    font-size: 16px;
-    line-height: 30px;
-}
- 
-blockquote::before
-{
-   
-    font-size: 50px;
-    color: #FFA500;
-    position: relative;
-    line-height: 20px;
-    bottom: -15px;
-    right: 5px;
- 
-}
- 
-.profile:hover
-{
-    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
-    cursor: pointer;
-    transition: 0.5s;
-}
+
  
 /*------contactanos-------*/
  
@@ -296,7 +220,7 @@ blockquote::before
 .contact-info .fa
 {
     margin-top: 10px;
-    color: #FFA500!important;
+    color: #dd11c2!important;
     font-weight: bold;
 }
  
