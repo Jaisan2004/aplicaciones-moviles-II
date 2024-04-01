@@ -1,0 +1,27 @@
+<section class="padded">
+    <br>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let item of cateProduct" 
+          (click)="seleccionarCategoria(item)" [class.active] = "item === itemElegido">
+            {{item.descripcion}}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10" *ngIf="itemElegido">
+        <div class="card">
+            <div class="card-body">
+                <h3 id="titulo">{{itemElegido.descripcion}}</h3>
+                <p class="card-text">{{itemElegido.slogan}}</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <app-products [categoriaX]="itemElegido"></app-products>
+      </div>
+    </div>
+  </div>
+</section>
