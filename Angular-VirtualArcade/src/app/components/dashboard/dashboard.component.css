@@ -1,0 +1,279 @@
+.nav-bar 
+{
+
+    background-color: #24303c;
+}
+
+.navbar a:hover 
+{
+	color: #dd11c2!important;
+}
+
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size:  16px;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    background-image: none;
+}
+/*---------barra de navegacion-----------*/
+#nav-bar
+{
+
+    background-color: #24303c;
+}
+ 
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+ 
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+ 
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    
+    
+}
+/*---Color importante-----*/
+#nav-bar ul li a:hover
+{
+    color: #3cdd3c!important;
+}
+ 
+
+ 
+.navbar-toggler
+{
+    border: none!important;
+}
+ 
+.nav-link
+{
+    color: #ffffff!important;
+    font-weight: 600;
+    font-size:  16px;
+}
+ 
+/*----------Slider---------*/
+ 
+#slider
+{
+    width: 100%;
+}
+ 
+.carousel-caption
+{
+    top: 25%;
+    transform: translateY(1%);
+    bottom: initial!important;
+}
+ 
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+ 
+/*-----nosotros---*/
+ 
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    text-align: center;
+}
+ 
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+ 
+ 
+}
+ 
+.about-content
+{
+    padding-top: 20px;
+    border-radius: 16px !important;
+}
+ 
+.btn,
+.btn:hover,
+.btn:active
+{
+    background: #8b11dd!important;
+    border-color: #8b11dd!important;
+}
+ 
+/*----------Servicios---------*/
+ 
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ 
+#services h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+ 
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 220px;
+    margin: 20px auto 5px;
+ 
+}
+ 
+.services
+{
+    margin-top: 40px;
+}
+ 
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+ 
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+ 
+.services .col-md-3:hover
+{
+    background: #a10c8d;
+    cursor:pointer;
+    transition: 0.7s;
+}
+ 
+/*-----proyectos------*/
+ 
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+ 
+h1::after
+{
+    content: '';
+    background: #dd11c2;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px auto 5px;
+    padding-bottom: 0px;
+ 
+    }
+
+ 
+/*------contactanos-------*/
+ 
+#contact
+{
+    background:#efefef ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+ 
+.contact-form
+{
+    padding: 15px;
+}
+ 
+.form-control
+{
+    border-radius: 0!important;
+    border:none !important;
+}
+ 
+::placeholder
+{
+    color: #999!important;
+}
+ 
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+ 
+.contact-info .fa
+{
+    margin-top: 10px;
+    color: #dd11c2!important;
+    font-weight: bold;
+}
+ 
+/*-------footer-------*/
+ 
+#footer
+{
+    background: #333;
+    color:#fff;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+#imagen{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+
+    position: absolute;
+    height: 85%;
+    width: 75%;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}

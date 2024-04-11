@@ -1,0 +1,12 @@
+
+.card{
+    background-color: #24303c;
+    color: #fff;
+}
+.img-custom {
+  height: 300px;
+  width: 100%;
+}
+.bi-basket{
+  cursor: pointer;
+}

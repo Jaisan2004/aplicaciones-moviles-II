@@ -1,0 +1,19 @@
+
+<section class="padded">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col" *ngFor="let item of productosFiltrados">
+        <div class="card h-100 border-dark">
+          <img id="juegos"
+            src="{{item.imagen}}"
+            class="card-img-top img-custom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.nombre}} <i class="bi bi-eye"></i></h5>
+            <p class="card-text">{{item.precio | number: '.3'}} 
+              <i class="bi bi-basket" (click)="agregarCarrito(item)"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

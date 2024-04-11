@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    color-scheme: light;
+}
+body{
+    background-image: url('https://www.infobae.com/new-resizer/Ql2bDGZ-TZGBBrAFFL_kOo1qwXk=/arc-anglerfish-arc2-prod-infobae/public/25FCOYGKIJF4ZLVWEOSZOCZ5MY.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#page-header{
+    background-color: #cccccc;
+    padding: 15px 0;
+}
